@@ -272,7 +272,7 @@ for ( my $i=0; $i<=$#BAMfiles_g; $i++ ) {
 
 
 
-
+##  run1 was used
 
 
 
