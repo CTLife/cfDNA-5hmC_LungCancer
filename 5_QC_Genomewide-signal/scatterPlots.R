@@ -2,7 +2,7 @@
 
 suppressPackageStartupMessages( library(ggplot2)  )
 
-df_1 <- read.table("multiqc_general_stats.txt",  header=T,   sep="\t" )  
+df_1 <- read.table("3_qualimap.multiqc_general_stats.txt",  header=T,   sep="\t" )  
 dim( df_1 )
 df_1[1:5 , ]
 
