@@ -1,3 +1,5 @@
+## plot mapping ratio and error rate
+
 suppressPackageStartupMessages( library(ggplot2)  )
 
 df_1 <- read.table("multiqc_general_stats.txt",  header=T,   sep="\t" )  
