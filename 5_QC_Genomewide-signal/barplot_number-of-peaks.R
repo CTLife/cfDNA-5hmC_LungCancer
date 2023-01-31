@@ -15,7 +15,7 @@ num_peaks[1:20]
 num_peaks2 = sort( num_peaks, decreasing = TRUE)  
 num_peaks3 = sort( num_peaks[1:30], decreasing = TRUE)  
 
-pdf( "bar_plot.all.pdf"  , width= 15, height=3)
+pdf( "bar_plot.all.pdf"  , width= 15, height=5)
     barplot(  num_peaks2, col="red" )
 dev.off()
 
