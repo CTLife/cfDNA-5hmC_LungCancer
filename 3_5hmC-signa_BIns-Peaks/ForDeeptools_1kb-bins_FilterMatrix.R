@@ -3,7 +3,7 @@
 
 
 ###########################################################################################################################################################################
-rawMatrix_1 <- read.table("B.1-RawCounts.1000bp-Bin.txt", header=TRUE,   sep="\t", comment.char = "" )  
+rawMatrix_1 <- read.table("Autosome.1kb-bins.FPKM.txt", header=TRUE,   sep="\t", comment.char = "" )  
 dim(rawMatrix_1 )
 rawMatrix_1[1:10,1:10]
 
